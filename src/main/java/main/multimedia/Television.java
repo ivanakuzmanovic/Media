@@ -10,7 +10,28 @@ package main.multimedia;
  * @author Ivana
  */
 public class Television {
-    int volume;
-    int currentProgram;
-    boolean turnOn;
-}
+   private int volume;
+   private int currentProgram;
+   private boolean turnOn;
+    
+    public int getVolume(){
+        return this.volume;
+        }
+    public void setVolume(){
+     this.volume = 0;
+        }
+    public int getCurrentProgram(){
+        return this.currentProgram;
+    }
+    public void setCurrentProgram(){
+        this.currentProgram = 1;
+    }
+    public boolean getTurnOn(){
+        return this.turnOn;
+    }
+    public void setTurnOn(){
+        this.turnOn = true;
+    }
+    
+    
+    }

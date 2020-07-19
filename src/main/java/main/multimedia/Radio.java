@@ -10,7 +10,27 @@ package main.multimedia;
  * @author Ivana
  */
 public class Radio {
-    double fmFrequency;
-    int amFrequency;
-    char band;
+   private double fmFrequency;
+   private int amFrequency;
+   private char band;
+
+   public double getFmFrequency(){
+       return this.fmFrequency;
+   }
+   public void setFmFrequency(){
+       this.fmFrequency = 91.8;
+   }
+   public int getAmFrequency(){
+       return this.amFrequency;
+   }
+   public void setAmFrequency(){
+       this.amFrequency = 600;
+   }
+   public char getBand(){
+      return this.band;
+   }
+   public void setBand(){
+       this.band = 'F';
+   }
 }
+
