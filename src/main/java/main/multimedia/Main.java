@@ -20,19 +20,15 @@ public class Main {
         tv1.setCurrentProgram();
         tv1.setTurnOn();
         tv1.setVolume();
-        System.out.println("Jacina zvuka je " + tv1.getVolume() +".");
-        System.out.println("Trenutni kanal je "+ tv1.getCurrentProgram() +".");
-        System.out.println("Da li je Tv upaljen?" + tv1.getTurnOn() +".");
-        
+        tv1.printAttributes();
     
     
     Radio radio1 = new Radio ();
     radio1.setFmFrequency();
     radio1.setAmFrequency();
     radio1.setBand();
-    System.out.println("FM Frequency is: " + radio1.getFmFrequency()+".");
-    System.out.println("AM Frequency is: " + radio1.getAmFrequency()+".");
-    System.out.println("Band is " + radio1.getBand()+"m"+".");
+    
+    radio1.printAttributes();
     }
             
 }

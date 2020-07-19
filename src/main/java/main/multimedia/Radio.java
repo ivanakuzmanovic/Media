@@ -32,5 +32,10 @@ public class Radio {
    public void setBand(){
        this.band = 'F';
    }
+   public void printAttributes(){
+       System.out.println("FM frequency is:"+ this.getFmFrequency());
+       System.out.println("AM frequency is:" + this.getAmFrequency());
+       System.out.println("Band is:" + this.getBand());
+   }
 }
 

@@ -32,6 +32,11 @@ public class Television {
     public void setTurnOn(){
         this.turnOn = true;
     }
-    
+    public void printAttributes(){
+        System.out.println("Volume is " + this.getVolume() +".");
+        System.out.println("Current channel is "+ this.getCurrentProgram() +".");
+        System.out.println("Tv is on:" + this.getTurnOn() +".");
+    }
+        
     
     }
